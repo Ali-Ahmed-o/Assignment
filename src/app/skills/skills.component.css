@@ -1,0 +1,57 @@
+.about {
+    margin-top: 100px;
+    margin-left: 130px;
+  }
+  .about p {
+    color: #737373b3;
+    width: 71%;
+  }
+  .about .jf {
+    color: black;
+  }
+  .about h6 {
+    font-size: 12px;
+    color: #737373b3;
+    letter-spacing: 5px;
+  }
+  .about h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Quicksand, Arial, sans-serif;
+  }
+  
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skill {
+    width: 35%;
+    margin-bottom: 20px;
+  }
+  
+  .skill-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .progress {
+    position: relative;
+    height: 8px;
+    background: #eaeaea;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 90%!important;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    transition: width 0.5s ease;
+  }
+  

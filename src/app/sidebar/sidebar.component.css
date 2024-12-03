@@ -1,0 +1,111 @@
+#sidebar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  overflow-y: auto;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+
+#sidebar .profile-img img {
+  margin: 40px auto;
+  display: block;
+  width: 155px;
+  height: 165px;
+}
+
+#sidebar .profile-img h1 {
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: normal;
+}
+#sidebar .profile-img p {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Quicksand," Arial, sans-serif;
+    font-style: normal;
+  }
+
+#sidebar .profile h1 a,
+#sidebar .profile h1 a:hover {
+  color: #000000!important;
+  text-decoration: none;
+  font-family: Quicksand, Arial, sans-serif;
+  font-size: 12px!important;
+}
+
+.titleuiux {
+  color: #149ddd;
+}
+/*--------------------------------------------------------------
+  # Header End
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  # Navigation Menu start
+  --------------------------------------------------------------*/
+/* Desktop Navigation */
+.nav-menu {
+  padding: 10px 0 0 0;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+  display: flex;
+  align-items: center;
+  color: #82838e;
+  padding: 8px 15px;
+  margin-bottom: 4px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+.nav-menu a
+{
+  text-align: center!important;
+  
+}
+
+.nav-menu li:hover > a {
+  text-decoration: 1px solid #149ddd underline!important;
+  /* border-bottom: 1px solid #149ddd; */
+
+}
+.underline
+{
+    color: #149ddd!important;
+    
+}
+.underline:hover > a
+{
+    color: #149ddd!important;
+    border-bottom: 1px solid #149ddd;
+}
+
+/*--------------------------------------------------------------
+  # Navigation Menu end
+  --------------------------------------------------------------*/

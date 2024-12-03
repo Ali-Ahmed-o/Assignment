@@ -1,0 +1,124 @@
+.resume-title {
+  color: rgb(255, 0, 0)!important;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume-item {
+  padding: 0 0 40px 50px;
+  margin-top: -2px;
+  
+  border-left: 4px solid #EEEEEE;
+  position: relative;
+}
+
+.resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  
+  color: rgb(0, 0, 0)!important;
+  margin-bottom: 10px;
+}
+.workcaption
+{
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: Playfair Display, Georgia, serif;
+}
+.experiencecaption
+{
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand,Arial,sans-serif;
+}
+
+.resume-item h5 {
+  font-size: 16px;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.datecolor
+{
+  color: gray!important;
+}
+
+.resume-content
+{
+  width: 100%;
+  background-color: #F2F3F7;
+  padding: 20px 20px 20px 20px;  
+  border-radius: 5px;
+}
+.circle1::before
+{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  left: -27px;
+  top: -6px;
+  background:#2C98F0!important;
+  border: 4px solid #EEEEEE;
+  
+}
+.circle2::before
+{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  left: -27px;
+  top: -6px;
+  background:#D9534F!important;
+  border: 4px solid #EEEEEE;
+}
+.circle3::before
+{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  left: -27px;
+  top: -6px;
+  background: #F0AD4E!important;
+  border: 4px solid #EEEEEE;
+}
+.circle4::before
+{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  left: -27px;
+  top: -6px;
+  background: #ffffff!important;
+  border: 4px solid #EEEEEE;
+}
+.circle4 
+{
+  margin-bottom: 70px;
+}
+
+.pencil
+{
+  font-size: 22px;
+  position: absolute;
+  left: -14px;
+  top: 8px;
+  color: #ffffff!important;
+}
